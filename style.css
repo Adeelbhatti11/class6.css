@@ -1,0 +1,40 @@
+.box{
+    width: 500px;
+    height: 500px;
+    border: 5px dotted red;
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.pgBBJA0Nz5aKyGn6gBx19QHaFj&pid=Api&P=0&h=180');
+    background-color: red;
+    padding: 20px;
+    mix-blend-mode: overlay; 
+}
+.box2{
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+    background: repeating-linear-gradient(green 10%,yellow 10%,greenyellow 20%);
+    opacity: 0;
+}
+.box2:hover{
+    opacity: 1;
+  background-color: red;
+}
+body{
+    /* background-image: url('https://tse1.mm.bing.net/th?id=OIP.pgBBJA0Nz5aKyGn6gBx19QHaFj&pid=Api&P=0&h=180'); */
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+}
+.haroonrami{
+   
+    background-clip: padding-box;
+    border: 5px solid #333;
+    padding: 10px;
+    background-color: rgba(255, 25, 250,1);
+    color: hsl(20,15%, 25%);
+}
+.list ul li{
+    visibility: visible;
+    display: none;
+    padding: 10px;
+    margin: 15px;
+}
